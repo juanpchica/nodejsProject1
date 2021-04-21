@@ -1,9 +1,8 @@
-const amount = 5
 
-if(amount < 10){
-    console.log('Small number')
-}else{
-    console.log('large number')
-}
+const names = require('./4-names')
+const sayHi = require('./utils')
+console.log(module);
 
-console.log(`Hey is my first app!!!`)
+sayHi(names.juan);
+sayHi(names.pablo);
+
